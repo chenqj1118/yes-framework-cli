@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "yes-framework": "^0.0.4"
+    "yes-framework": "~0.0.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.5",
