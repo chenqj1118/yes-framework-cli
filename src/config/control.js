@@ -3,6 +3,8 @@ import * as defaultControls from 'yes-framework';
 const context = require.context('../controls', true, /.js$/);
 
 const obj = {};
+Object.assign(obj, defaultControls);
+
 context.keys().forEach((key) => {
   const c = context(key).default;
   if(c.key) {
@@ -15,6 +17,5 @@ context.keys().forEach((key) => {
 });
 
 obj['IconFont'] = IconFont;
-Object.assign(obj, defaultControls);
 
 export default obj;

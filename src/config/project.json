@@ -1,5 +1,5 @@
 {
-    "sessionKey": "test",
+    "sessionKey": "demo",
     "serverPath_":"http://localhost:8080/yigo",
     "serverPath":"http://mcs.bokesoft.com:28098/mcs/",
     "wechat": {

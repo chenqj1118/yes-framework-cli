@@ -1,12 +1,5 @@
 [
     {
-        "key": "Home",
-        "type": "control",
-        "path": "Home",
-        "control": "Home",
-        "isRoot": false 
-    },
-    {
         "key": "Tab",
         "type": "tab",
         "path": "Tabs",
@@ -22,7 +15,16 @@
                 "path": "Home1",
                 "label": "面板",
                 "icon": "icon-dashboard",
-                "control": "Home"
+                "control": "Home1"
+            },{
+                "key": "WorkingHour",
+                "type": "billform",
+                "path": "WorkingHour",
+                "formKey": "CB_ProjectWorkHourFillView",
+                "oid": "-1",
+                "status": "EDIT",
+                "label": "工时",
+                "icon": "icon-icon_calendar"
             },{
                 "key": "Home2",
                 "type": "control",
