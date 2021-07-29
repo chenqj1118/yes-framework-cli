@@ -9,10 +9,16 @@
 3. npm start启动webpackdevserver
 ## 在docker上启动
 * 下载image
-    docker pull jefferscn/yes-framework:0.0.1
+    docker pull jefferscn/yes-framework
 * 创建container
-    docker run -p 8080:80 jeferscn/yes-framework:0.0.1
+    docker run -p 8080:80 jeferscn/yes-framework
 * 在本地浏览器中访问http://localhost:8080
 * 可以使用vscode的remote-containers插件直对container中的代码进行开发和调试
+## demo系统安装
+* 下载image
+    docker pull jefferscn/yes-framework-demo
+* 创建container
+    docker run -p 8080:80 jeferscn/yes-framework-demo
+* 在本地浏览器中访问http://localhost:8080
 ## tips
 > 第一个版本中存在一些警告，在后续版本中会处理，不影响使用
