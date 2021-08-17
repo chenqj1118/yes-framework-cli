@@ -7,7 +7,8 @@
     "start": "gulp serve",
     "build:clean": "rimraf ./build",
     "build": "npm run build:clean && cross-env NODE_ENV=production webpack --config webpack/webpack.prod.babel.js --color -p --progress",
-    "build:debug": "npm run build:clean && cross-env NODE_ENV=production webpack --config webpack/webpack.prod.debug.babel.js --color -p --progress"
+    "build:debug": "npm run build:clean && cross-env NODE_ENV=production webpack --config webpack/webpack.prod.debug.babel.js --color -p --progress",
+    "build:embed": "npm run build:clean && cross-env NODE_ENV=production webpack --config webpack/webpack.embed.babel.js --color -p --progress"
   },
   "author": "",
   "license": "ISC",
